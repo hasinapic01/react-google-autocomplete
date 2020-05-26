@@ -20,7 +20,7 @@ export default class ReactGoogleAutocomplete extends React.Component {
 
   componentDidMount() {
     const {
-      types = ['(cities)'],
+      // types = ['(cities)'],
       componentRestrictions,
       bounds,
       apiKey,
@@ -32,7 +32,7 @@ export default class ReactGoogleAutocomplete extends React.Component {
       ]
     } = this.props;
     const config = {
-      types,
+      // types,
       bounds,
       fields
     };
